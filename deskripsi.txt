@@ -1,0 +1,12 @@
+Nama 	: Rizky Fathurahman
+NIM	: 312015075
+
+Nama	: Rifki Purnama
+NIM	: 
+
+Back-End
+Username 	: admin, pemilik
+Password	: admin, pemilik
+
+Yang ditambahkan sekaligus yang kurang
+Laporan parameter perbulan dan tahun di Back END

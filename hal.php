@@ -1,0 +1,24 @@
+<?php
+	include('admin/koneksi.php');
+	if(isset($_GET['hal'])){
+		if($_GET['hal']=="home"){
+			include('home.php');
+		}elseif($_GET['hal']=='mobil'){
+			include('mobil.php');
+		}elseif($_GET['hal']=='kontak'){
+			include('kontak.php');
+		}elseif($_GET['hal']=='profile'){
+			include('profile.php');
+		}elseif($_GET['hal']=='riwayat'){
+			include('riwayat.php');
+		}elseif($_GET['hal']=='sewa'){
+			include('sewa.php');
+		}elseif($_GET['hal']=='detailsewa'){
+			include('detail.php');
+		}elseif($_GET['hal']=='login'){
+			include('login.php');
+		}else{
+			include('home.php');
+		}
+	}
+?>

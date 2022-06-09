@@ -1,0 +1,18 @@
+<?php
+	include('admin/koneksi.php');
+	if(isset($_GET['page'])){
+		if($_GET['page']=='home'){
+			include('costumer/home_cs.php');
+		}elseif($_GET['page']=='mobil'){
+			include('costumer/mobil_cs.php');
+		}elseif($_GET['page']=='sewa'){
+			include('costumer/sewa_cs.php');
+		}elseif($_GET['page']=='detailsewa'){
+			include('costumer/detail_cs.php');
+		}elseif($_GET['page']=='logout'){
+			include('logout.php');
+		}else{
+			include('home.php');
+		}
+	}
+?>
